@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdFriend</title>
+    <link rel="stylesheet" href="styles/popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AdFriend</h1>
+        <label class="switch">
+          <input type="checkbox" id="masterToggle" />
+          <span class="slider round"></span>
+        </label>
+      </header>
+
+      <section class="features">
+        <div class="feature-item">
+          <label for="themeToggle">Dark Theme</label>
+          <label class="switch">
+            <input type="checkbox" id="themeToggle" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="feature-item">
+          <label for="contentType">Content Type</label>
+          <select id="contentType">
+            <option value="quote">Quotes</option>
+            <option value="reminder">Reminders</option>
+            <option value="custom">Custom</option>
+          </select>
+        </div>
+
+        <div id="customContentBox" class="hidden">
+          <textarea
+            id="customContent"
+            placeholder="Enter your custom content..."
+          ></textarea>
+        </div>
+
+        <div class="feature-item">
+          <label for="incognitoToggle">Incognito Auto</label>
+          <label class="switch">
+            <input type="checkbox" id="incognitoToggle" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </section>
+    </div>
+
+    <div class="reminders-section">
+      <h2>Reminders</h2>
+      <div class="reminder-form">
+        <input
+          type="text"
+          id="reminderMessage"
+          placeholder="Reminder message"
+        />
+        <input type="time" id="reminderTime" />
+        <label>
+          <input type="checkbox" id="reminderRepeat" />
+          Repeat
+        </label>
+        <input
+          type="number"
+          id="reminderInterval"
+          min="1"
+          placeholder="Interval (minutes)"
+        />
+        <button id="addReminder">Add Reminder</button>
+      </div>
+      <div id="remindersList"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
