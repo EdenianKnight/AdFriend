@@ -1,0 +1,33 @@
+:root {
+    --light-bg: #ffffff;
+    --light-text: #000000;
+    --light-accent: #007bff;
+    --dark-bg: #1a1a1a;
+    --dark-text: #ffffff;
+    --dark-accent: #66b3ff;
+  }
+  
+  .adfriend-content {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .light-theme {
+    .adfriend-content {
+      background: var(--light-bg);
+      color: var(--light-text);
+      border: 1px solid var(--light-accent);
+    }
+  }
+  
+  .dark-theme {
+    .adfriend-content {
+      background: var(--dark-bg);
+      color: var(--dark-text);
+      border: 1px solid var(--dark-accent);
+    }
+  }
