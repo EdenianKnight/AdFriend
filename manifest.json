@@ -1,0 +1,53 @@
+{
+    "name": "AdFriend",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Transform ad spaces into positive, interactive experiences",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "webNavigation",
+      "declarativeNetRequest",
+      "alarms",
+      "notifications",
+      "tabs"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules.json"
+        }
+      ]
+    },
+    "action": {
+      "default_title": "AdFriend",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "adfriend@example.com",
+        "strict_min_version": "121.0"
+      },
+      "gecko_android": {
+        "id": "adfriend@example.com",
+        "strict_min_version": "121.0"
+      }
+    },
+    "minimum_chrome_version": "121",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content-scripts/adBlocker.js", "content-scripts/themeManager.js"],
+        "css": ["styles/themes.css"],
+        "run_at": "document_start"
+      }
+    ]
+  }
