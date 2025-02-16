@@ -1,0 +1,25 @@
+.widget {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background: var(--widget-bg, #fff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clock {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .todo input,
+  .notes textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  .timer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
