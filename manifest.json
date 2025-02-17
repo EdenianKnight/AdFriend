@@ -2,6 +2,10 @@
     "name": "AdFriend",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+      "48": "icons/icon48.png",
+      "128": "icons/logo128.png"
+    },
     "description": "Transform ad spaces into positive, interactive experiences",
     "permissions": [
       "storage",
@@ -25,7 +29,10 @@
     },
     "action": {
       "default_title": "AdFriend",
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/icon48.png"
+      }
     },
     "background": {
       "service_worker": "background.js",
