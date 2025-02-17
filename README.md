@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/EdenianKnight/AdFriend/raw/main/icons/main.png" width="300">
+      <img src="https://github.com/EdenianKnight/AdFriend/raw/main/icons/main.png" width="600">
     </td>
     <td>
       <strong>AdFriend</strong> is a cross-platform, cross-browser extension designed to transform ad spaces into positive, interactive experiences. 
