@@ -1,5 +1,7 @@
 # AdFriend - Browser Extension
 
+![AdFriend Icon](https://github.com/EdenianKnight/AdFriend/blob/main/icons/main.png?raw=true)
+
 AdFriend is a cross-platform, cross-browser extension designed to transform ad spaces into positive, interactive experiences. It blocks intrusive ads and replaces them with customizable content such as motivational quotes, reminders, or widgets. The extension also includes features like dark theme support, automatic incognito mode, and a reminder system to enhance user productivity and privacy.
 
 ---
