@@ -10,6 +10,12 @@ body {
     flex-direction: column;
     gap: 16px;
   }
+
+  header img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
   
   header {
     display: flex;
