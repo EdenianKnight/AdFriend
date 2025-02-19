@@ -278,6 +278,19 @@ AdFriend takes your privacy seriously:
   
 ---
 
+## Future Changes
+
+## Keyboard Shortcuts
+
+| Action | Windows/Linux | macOS |
+|--------|--------------|-------|
+| Toggle Extension | Ctrl + Shift + A | ⌘ + Shift + A |
+| Open Settings | Ctrl + Shift + S | ⌘ + Shift + S |
+| New Reminder | Ctrl + Shift + R | ⌘ + Shift + R |
+| Toggle Dark Mode | Ctrl + Shift + D | ⌘ + Shift + D |
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
