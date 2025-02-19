@@ -236,6 +236,15 @@ The extension was rigorously tested using the following tools:
 
 ---
 
+## Privacy Policy
+
+AdFriend takes your privacy seriously:
+- No user data collection
+- No external API calls (except for quotes)
+- Local storage only for preferences
+- No tracking or analytics
+- Automatic data clearing in incognito mode
+
 ## Troubleshooting
 
 ### Common Issues
