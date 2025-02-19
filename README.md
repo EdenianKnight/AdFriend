@@ -199,6 +199,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+## Authors
+
+- **Solomon Okomowho** ([EdenianKnight](https://github.com/EdenianKnight))
+- **Ebenezer Akinseinde** ([Ebendttl](https://github.com/Ebendttl))
+
+---
+
 ## Acknowledgments
 
 - Thanks to the [WebExtensions API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) for providing cross-browser compatibility.
