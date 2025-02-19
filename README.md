@@ -17,7 +17,7 @@
 
 ## Demo
 
-[Watch Demo Video >](https://github.com/EdenianKnight/AdFriend/raw/main/AdFriend_Demo.webm)
+[![Watch the video](https://github.com/EdenianKnight/AdFriend/raw/main/icons/main.png)](https://github.com/EdenianKnight/AdFriend/raw/main/AdFriend_Demo.webm)
 
 ---
 
