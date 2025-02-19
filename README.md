@@ -205,6 +205,27 @@ The extension was rigorously tested using the following tools:
 
 ---
 
+## Troubleshooting
+
+### Common Issues
+
+1. **Extension not blocking ads**
+   - Clear browser cache and reload the page
+   - Check if other ad blockers are interfering
+   - Verify the extension permissions
+
+2. **Widgets not loading**
+   - Check your internet connection
+   - Reload the extension
+   - Ensure JavaScript is enabled
+
+3. **Reminders not working**
+   - Allow notifications in browser settings
+   - Check system notification settings
+   - Verify background scripts are running
+  
+---
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
