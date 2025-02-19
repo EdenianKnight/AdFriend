@@ -15,6 +15,12 @@
 
 ---
 
+## Demo
+
+[Watch Demo Video >](https://github.com/EdenianKnight/AdFriend/raw/main/AdFriend_Demo.webm)
+
+---
+
 ## File Structure
 
 ```
