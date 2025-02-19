@@ -17,7 +17,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/9e177188-49fc-4740-974a-fd0fb7d6db73
+https://github.com/user-attachments/assets/56a78d5c-2636-4438-bc55-d046b58220f1
 
 ---
 
@@ -284,8 +284,6 @@ The extension was rigorously tested using the following tools:
 
 ---
 
-
-
 ## Privacy Policy
 
 AdFriend takes your privacy seriously:
@@ -294,6 +292,8 @@ AdFriend takes your privacy seriously:
 - Local storage only for preferences
 - No tracking or analytics
 - Automatic data clearing in incognito mode
+
+---
 
 ## Troubleshooting
 
