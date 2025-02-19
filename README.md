@@ -151,41 +151,6 @@ AdFriend/
 
 ---
 
-## Configuration
-
-### Custom Content Settings
-```json
-{
-  "quotes": {
-    "enabled": true,
-    "updateInterval": 3600,
-    "source": "local"
-  },
-  "widgets": {
-    "clock": true,
-    "todo": true,
-    "notes": true,
-    "timer": true
-  },
-  "darkMode": "system",
-  "reminderSound": "default"
-}
-```
-
-----
-
-## Security Features
-
-- Content Script Isolation
-- CSP Implementation
-- Secure Local Storage
-- Permission Sandboxing
-- Regular Security Updates
-- XSS Prevention
-- Safe DOM Manipulation
-
----
-
 ## Requirements
 
 - Node.js v14.0.0 or higher
@@ -203,36 +168,6 @@ AdFriend/
 | Firefox | 86 or later    |
 | Edge    | 88 or later    |
 | Opera   | 74 or later    |
-| Brave   | 1.20 or later  |
-
----
-
-## Performance Impact
-
-AdFriend is designed to be lightweight and efficient:
-- Memory usage: < 50MB
-- CPU usage: < 1% on average
-- Storage: < 10MB
-- Network requests: Minimal (only for quote updates)
-
----
-
-## Performance Best Practices
-
-When using AdFriend, follow these guidelines for optimal performance:
-
-### Recommended Settings
-- Keep widget count under 5 per page
-- Set reminder intervals > 5 minutes apart
-- Use local quotes for faster loading
-- Enable lazy loading for widgets
-- Clear cached data monthly
-
-### Resource-Intensive Features
-- Real-time ad scanning
-- Multiple active widgets
-- Frequent reminder checks
-- Custom content rotation
 
 ---
 
@@ -269,32 +204,6 @@ The extension was rigorously tested using the following tools:
 
 ---
 
-## Resource Usage
-
-### Storage Limits
-- Quotes cache: 5MB
-- Widget data: 10MB
-- Settings: 1MB
-- Reminders: 2MB
-
-### API Rate Limits
-- Quote updates: 100/hour
-- Reminder checks: 60/minute
-- Widget updates: 30/minute
-
----
-
-## Privacy Policy
-
-AdFriend takes your privacy seriously:
-- No user data collection
-- No external API calls (except for quotes)
-- Local storage only for preferences
-- No tracking or analytics
-- Automatic data clearing in incognito mode
-
----
-
 ## Troubleshooting
 
 ### Common Issues
@@ -326,6 +235,96 @@ AdFriend takes your privacy seriously:
 | Open Settings | Ctrl + Shift + S | ⌘ + Shift + S |
 | New Reminder | Ctrl + Shift + R | ⌘ + Shift + R |
 | Toggle Dark Mode | Ctrl + Shift + D | ⌘ + Shift + D |
+
+---
+
+### Resource Usage
+
+### Storage Limits
+- Quotes cache: 5MB
+- Widget data: 10MB
+- Settings: 1MB
+- Reminders: 2MB
+
+### API Rate Limits
+- Quote updates: 100/hour
+- Reminder checks: 60/minute
+- Widget updates: 30/minute
+
+---
+
+### Privacy Policy
+
+AdFriend takes your privacy seriously:
+- No user data collection
+- No external API calls (except for quotes)
+- Local storage only for preferences
+- No tracking or analytics
+- Automatic data clearing in incognito mode
+
+---
+
+### Performance Best Practices
+
+When using AdFriend, follow these guidelines for optimal performance:
+
+### Recommended Settings
+- Keep widget count under 5 per page
+- Set reminder intervals > 5 minutes apart
+- Use local quotes for faster loading
+- Enable lazy loading for widgets
+- Clear cached data monthly
+
+### Resource-Intensive Features
+- Real-time ad scanning
+- Multiple active widgets
+- Frequent reminder checks
+- Custom content rotation
+
+---
+
+### Performance Impact
+
+AdFriend is designed to be lightweight and efficient:
+- Memory usage: < 50MB
+- CPU usage: < 1% on average
+- Storage: < 10MB
+- Network requests: Minimal (only for quote updates)
+
+---
+
+### Configuration
+
+### Custom Content Settings
+```json
+{
+  "quotes": {
+    "enabled": true,
+    "updateInterval": 3600,
+    "source": "local"
+  },
+  "widgets": {
+    "clock": true,
+    "todo": true,
+    "notes": true,
+    "timer": true
+  },
+  "darkMode": "system",
+  "reminderSound": "default"
+}
+```
+
+----
+
+### Security Features
+
+- Content Script Isolation
+- CSP Implementation
+- Secure Local Storage
+- Permission Sandboxing
+- Regular Security Updates
+- XSS Prevention
+- Safe DOM Manipulation
 
 ---
 
