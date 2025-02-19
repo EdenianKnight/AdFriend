@@ -151,6 +151,29 @@ AdFriend/
 
 ---
 
+## Configuration
+
+### Custom Content Settings
+```json
+{
+  "quotes": {
+    "enabled": true,
+    "updateInterval": 3600,
+    "source": "local"
+  },
+  "widgets": {
+    "clock": true,
+    "todo": true,
+    "notes": true,
+    "timer": true
+  },
+  "darkMode": "system",
+  "reminderSound": "default"
+}
+```
+
+----
+
 ## Requirements
 
 - Node.js v14.0.0 or higher
