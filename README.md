@@ -151,6 +151,15 @@ AdFriend/
 
 ---
 
+## Requirements
+
+- Node.js v14.0.0 or higher
+- NPM v6.0.0 or higher
+- Chrome/Firefox/Edge (latest versions)
+- At least 50MB of free disk space
+
+---
+
 ## Testing
 
 The extension was rigorously tested using the following tools:
