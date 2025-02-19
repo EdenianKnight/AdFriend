@@ -343,6 +343,28 @@ To install as PWA:
 2. Click "Install as App" button
 3. Follow browser prompts
 
+---
+
+## Localization
+
+AdFriend will support the following languages:
+- English (default)
+- Spanish
+- French
+- German
+- Chinese (Simplified)
+- Japanese
+- Korean
+
+To contribute translations:
+1. Fork the repository
+2. Add translations to `/locales/[language-code]`
+3. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
