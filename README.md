@@ -365,6 +365,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ---
 
+## Data Migration
+
+### Exporting Data
+```bash
+# Export all settings and data
+adfriend export --all
+
+# Export specific data
+adfriend export --reminders
+adfriend export --widgets
+adfriend export --settings
+```
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
