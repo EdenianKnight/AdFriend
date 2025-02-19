@@ -160,6 +160,18 @@ AdFriend/
 
 ---
 
+## Browser Compatibility
+
+| Browser | Minimum Version |
+|---------|----------------|
+| Chrome  | 88 or later    |
+| Firefox | 86 or later    |
+| Edge    | 88 or later    |
+| Opera   | 74 or later    |
+| Brave   | 1.20 or later  |
+
+---
+
 ## Testing
 
 The extension was rigorously tested using the following tools:
