@@ -174,6 +174,18 @@ AdFriend/
 
 ----
 
+## Security Features
+
+- Content Script Isolation
+- CSP Implementation
+- Secure Local Storage
+- Permission Sandboxing
+- Regular Security Updates
+- XSS Prevention
+- Safe DOM Manipulation
+
+---
+
 ## Requirements
 
 - Node.js v14.0.0 or higher
