@@ -365,7 +365,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ---
 
-## Data Migration
+### Data Migration
 
 ### Exporting Data
 ```bash
@@ -376,6 +376,30 @@ adfriend export --all
 adfriend export --reminders
 adfriend export --widgets
 adfriend export --settings
+```
+
+## Developer Tools
+
+### Built-in Developer Features
+- Network request inspector
+- Widget debugging console
+- Performance monitoring
+- Storage inspector
+- Error logging
+
+### Debugging Commands
+```javascript
+// Enable debug mode
+AdFriend.debug.enable()
+
+// Monitor widget performance
+AdFriend.debug.monitorWidget('clock')
+
+// Track memory usage
+AdFriend.debug.memoryProfile()
+
+// Test reminder system
+AdFriend.debug.testReminders()
 ```
 
 ---
