@@ -215,6 +215,27 @@ AdFriend is designed to be lightweight and efficient:
 - Storage: < 10MB
 - Network requests: Minimal (only for quote updates)
 
+---
+
+## Performance Best Practices
+
+When using AdFriend, follow these guidelines for optimal performance:
+
+### Recommended Settings
+- Keep widget count under 5 per page
+- Set reminder intervals > 5 minutes apart
+- Use local quotes for faster loading
+- Enable lazy loading for widgets
+- Clear cached data monthly
+
+### Resource-Intensive Features
+- Real-time ad scanning
+- Multiple active widgets
+- Frequent reminder checks
+- Custom content rotation
+
+---
+
 ## Testing
 
 The extension was rigorously tested using the following tools:
