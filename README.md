@@ -248,6 +248,21 @@ The extension was rigorously tested using the following tools:
 
 ---
 
+## Resource Usage
+
+### Storage Limits
+- Quotes cache: 5MB
+- Widget data: 10MB
+- Settings: 1MB
+- Reminders: 2MB
+
+### API Rate Limits
+- Quote updates: 100/hour
+- Reminder checks: 60/minute
+- Widget updates: 30/minute
+
+---
+
 ## Privacy Policy
 
 AdFriend takes your privacy seriously:
