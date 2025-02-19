@@ -345,7 +345,7 @@ To install as PWA:
 
 ---
 
-## Localization
+### Localization
 
 AdFriend will support the following languages:
 - English (default)
@@ -378,7 +378,9 @@ adfriend export --widgets
 adfriend export --settings
 ```
 
-## Developer Tools
+---
+
+### Developer Tools
 
 ### Built-in Developer Features
 - Network request inspector
