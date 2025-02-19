@@ -263,6 +263,8 @@ The extension was rigorously tested using the following tools:
 
 ---
 
+
+
 ## Privacy Policy
 
 AdFriend takes your privacy seriously:
@@ -295,7 +297,7 @@ AdFriend takes your privacy seriously:
 
 ## Future Changes
 
-## Keyboard Shortcuts
+### Keyboard Shortcuts
 
 | Action | Windows/Linux | macOS |
 |--------|--------------|-------|
@@ -305,6 +307,20 @@ AdFriend takes your privacy seriously:
 | Toggle Dark Mode | Ctrl + Shift + D | ⌘ + Shift + D |
 
 ---
+
+### PWA Support
+
+AdFriend can be installed as a Progressive Web App for enhanced functionality:
+- Offline support for saved content
+- Background sync for reminders
+- Push notifications support
+- App-like experience
+- Automatic updates
+
+To install as PWA:
+1. Visit the extension options page
+2. Click "Install as App" button
+3. Follow browser prompts
 
 ## Contributing
 
